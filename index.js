@@ -1,5 +1,5 @@
 // add solution here
-function theBeatlesPlay(musicans, instruments){
+function theBeatlesPlay(musicians, instruments){
   var emptyArray = []
   for(var i=0; i< musicians.length; i++){
       emptyArray.push(musicians[i].toString() + " plays " + instruments[i].toString())
